@@ -4,6 +4,7 @@ import "./style/artistsStyle.css"
 
 function  Artists({artists}) {
     const navigate = useNavigate();
+    console.log(navigate)
 
     return (
       <>

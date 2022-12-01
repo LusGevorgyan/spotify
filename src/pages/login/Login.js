@@ -51,7 +51,6 @@ function Login() {
       window.location.hash = "";
       window.localStorage.setItem("token", token);
     }
-
     setToken(token);
   }, []);
 
