@@ -1,0 +1,60 @@
+.App-header .login_button{
+  margin: 20px;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.App-header .logout_button {
+  margin: 20px;
+  padding: 15px 10px;
+  width: 80px;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: #00B67A;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-header .logout_button {
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 50%;
+  }
+}
+
+.App-header .login_button >a{
+  font-size: 22px;
+  text-decoration: none;
+  color: #00B67A;
+  font-weight: bold;
+}
+
+.App-header .search_form {
+  margin: 20px;
+}
+
+.App-header .search_form .search{
+  width: 220px;
+  padding: 15px 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.App-header .search_form .search_button {
+  width: 70px;
+  padding: 15px 10px;
+  border: 1px solid #00B67A;
+  background: #00B67A;
+  color: white;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

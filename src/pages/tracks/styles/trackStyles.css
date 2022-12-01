@@ -1,0 +1,145 @@
+.artist_info{
+    width: 100%;
+    height: 200px;
+    background: black;
+    padding: 50px;
+    box-shadow: .2rem .2rem .8rem #111, -.2rem -.2rem .8rem #333;
+    color: white;
+}
+
+.artist_info .artist_name {
+    font-size: 50px;
+    font-family: 'Philosopher', sans-serif;
+    text-shadow: 0 13.36px 8.896px #00B67A, 0 -2px 1px #00B67A;
+    color: white;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    letter-spacing: 1rem;
+}
+
+.artist_info .artist_type
+{
+    font-family: 'Reggae One', cursive;
+    color: white;
+}
+
+.track_forms {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    background: black;
+}
+
+.track_forms .track_list {
+    cursor: pointer;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 40px;
+    color: white;
+}
+
+.track_forms .track_list .track_list_play {
+    /*width: 100px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+
+.track_forms .track_list .rhap_progress-section {
+    display: none;
+}
+
+.track_forms .track_list .rhap_additional-controls {
+    display: none;
+}
+
+.track_forms .track_list .rhap_volume-controls {
+    display: none;
+}
+
+.track_forms .track_list .rhap_rewind-button{
+    display: none;
+}
+.track_forms .track_list .rhap_forward-button{
+    display: none;
+}
+
+
+.track_forms .track_list audio {
+    width: 600px;
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    border-radius: 90px;
+    transform: scale(1.05);
+}
+
+
+.track_forms .track_list:hover {
+    /*height: 70px;*/
+    color: white;
+    box-shadow: .2rem .2rem .8rem #111, -.2rem -.2rem .8rem #333;
+}
+
+
+.track_forms .track_list button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-size: 25px;
+}
+
+.track_forms .track_list .track_list_play button:hover svg{
+    fill: #00B67A;
+}
+
+.track_forms .track_list .track_list_play svg:hover{
+    fill: white;
+}
+
+.track_forms .track_list .track_list_play svg{
+    font-size: 45px;
+    font-weight: bold;
+    color: #00B67A;
+    /*box-shadow: .2rem .2rem .8rem #111, -.2rem -.2rem .8rem #333;*/
+}
+
+.track_forms .track_list #playPauseBTN {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.track_forms .track_list .track_list_form {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+
+.track_forms .track_list .track_list_info {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.track_forms .track_list .track_list_info .track_number {
+    margin-right: 20px;
+}
+
+.track_forms .track_list .track_list_info .track_name {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.track_forms .track_list .track_list_info .track_view {
+    font-size: 12px;
+    font-family: 'Reggae One', cursive;
+    color: #00B67A;
+}

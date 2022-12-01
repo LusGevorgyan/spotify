@@ -1,0 +1,69 @@
+.nav {
+    width: 100%;
+}
+
+.header {
+    padding: 0 20px;
+    /*background: #22b574;*/
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.header .icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.header .form-control{
+    padding: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.header .form-control:focus {
+    border: #00B67A;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5);
+}
+
+::placeholder {
+    color: black;
+    font-size: 14px;
+}
+
+.footer_spotify {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background: #00B67A;
+    color: black;
+}
+
+.footer_spotify .icon img{
+    width: 50px;
+    height: 50px;
+}
+
+.footer_spotify .footer_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.footer_spotify .footer_info .info_name {
+    color: #1d1d1d;
+    font-size: 18px;
+    font-weight: bold;
+}
+
